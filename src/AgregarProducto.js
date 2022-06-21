@@ -3,8 +3,8 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import { Rings } from "react-loader-spinner";
 
-import backImage from "./assets/backImage.png";
-import Logo from "./assets/Logo.png";
+import backImage from "./assets/backsantate.png";
+import Logo from "./assets/santate.png";
 
 const AgregarProducto = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -153,7 +153,7 @@ const AgregarProducto = () => {
           <div
             className="d-flex justify-content-center"
             style={{
-              backgroundColor: "rgb(0, 124, 53)",
+              backgroundColor: "rgb(0, 0, 0)",
               borderRadius: "12px",
               width: "85%",
             }}
@@ -168,7 +168,7 @@ const AgregarProducto = () => {
                 className="text-center"
                 style={{
                   color: "#fff",
-                  fontFamily: "roboto",
+                  fontFamily: "Impact",
                 }}
               >
                 Agregar un Producto
@@ -213,7 +213,7 @@ const AgregarProducto = () => {
                 <label
                   style={{
                     color: "#fff",
-                    fontFamily: "roboto",
+                    fontFamily: "Impact",
                     fontSize: "1.3rem",
                   }}
                 >
@@ -229,7 +229,7 @@ const AgregarProducto = () => {
                 <label
                   style={{
                     color: "#fff",
-                    fontFamily: "roboto",
+                    fontFamily: "Impact",
                     fontSize: "1.3rem",
                   }}
                 >
@@ -245,7 +245,7 @@ const AgregarProducto = () => {
                 <label
                   style={{
                     color: "#fff",
-                    fontFamily: "roboto",
+                    fontFamily: "Impact",
                     fontSize: "1.3rem",
                   }}
                 >
@@ -269,7 +269,7 @@ const AgregarProducto = () => {
                     className="btn"
                     style={{
                       fontSize: "1rem",
-                      fontFamily: "roboto",
+                      fontFamily: "Impact",
                       backgroundColor: "white",
                     }}
                   >
