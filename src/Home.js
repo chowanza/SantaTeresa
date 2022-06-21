@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import backImage from "./assets/backImage.png";
-import Logo from "./assets/Logo.png";
+import backImage from "./assets/backsantate.png";
+import Logo from "./assets/santate.png";
 
 const Home = () => {
   let cookies = {};
@@ -28,8 +28,8 @@ const Home = () => {
         className="d-flex align-items-center"
         style={{
           height: "89.5vh",
-          color: "rgb(57 102 47)",
-          fontFamily: "roboto",
+          color: "rgb(0 0 0)",
+          fontFamily: "Impact",
         }}
       >
         <div className="col-6 ps-4 d-flex justify-content-center">
@@ -43,7 +43,7 @@ const Home = () => {
                 style={{
                   textAlign: "center",
                   fontSize: "2rem",
-                  fontFamily: "roboto",
+                  fontFamily: "Impact",
                 }}
               >
                 ¡Bienvenido {cookies.nombre} {cookies.apellido}!
@@ -53,10 +53,11 @@ const Home = () => {
                 style={{
                   textAlign: "center",
                   fontSize: "2rem",
-                  fontFamily: "roboto",
+                  fontFamily: "Impact",
+                  color: "rgb(0 0 0)"
                 }}
               >
-                ¡Bienvenido a Distribuidora F&S!
+                ¡BIENVENIDO A DISTRIBUIDORA SANTA TERESA!
               </h1>
             )}
 
@@ -72,7 +73,7 @@ const Home = () => {
                 >
                   <button
                     type="button"
-                    className="btn btn-success btn-lg"
+                    className="btn btn-danger btn-lg"
                     style={{ fontSize: "1.3rem" }}
                   >
                     Ver Productos
@@ -89,7 +90,7 @@ const Home = () => {
                 >
                   <button
                     type="button"
-                    className="btn btn-success btn-lg"
+                    className="btn btn-danger btn-lg"
                     style={{ fontSize: "1.3rem" }}
                   >
                     Ingresar
