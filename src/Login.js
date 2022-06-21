@@ -4,8 +4,8 @@ import Swal from "sweetalert2";
 import { Rings } from "react-loader-spinner";
 import { useNavigate, Link } from "react-router-dom";
 
-import backImage from "./assets/backImage.png";
-import Logo from "./assets/Logo.png";
+import backImage from "./assets/backsantate.png";
+import Logo from "./assets/santate.png";
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -89,7 +89,7 @@ const Login = () => {
           <div
             className="d-flex justify-content-center"
             style={{
-              backgroundColor: "rgb(0, 124, 53)",
+              backgroundColor: "rgb(0, 0, 0)",
               borderRadius: "12px",
               width: "85%",
             }}
@@ -104,7 +104,7 @@ const Login = () => {
                 className="text-center"
                 style={{
                   color: "#fff",
-                  fontFamily: "roboto",
+                  fontFamily: "Impact",
                 }}
               >
                 Ingresar
@@ -138,7 +138,7 @@ const Login = () => {
                     disabled={form.password.length < 8}
                     style={{
                       fontSize: "1rem",
-                      fontFamily: "roboto",
+                      fontFamily: "Impact",
                       backgroundColor: "white",
                     }}
                   >
@@ -150,7 +150,7 @@ const Login = () => {
                 <p
                   style={{
                     fontSize: "1.2rem",
-                    fontFamily: "roboto",
+                    fontFamily: "Impact",
                     color: "white",
                   }}
                 >
