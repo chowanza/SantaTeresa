@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import Logo from "./assets/Logo.png";
+import Logo from "./assets/santate.png";
 import axios from "axios";
 
 const Card = ({
@@ -57,7 +57,7 @@ const Card = ({
   return (
     <div
       className="card m-2"
-      style={{ width: "18rem", height: "450px", fontFamily: "roboto" }}
+      style={{ width: "18rem", height: "450px", fontFamily: "Impact" }}
     >
       <div className="d-flex justify-content-center mt-3">
         <img src={image} alt="Logo" style={{ width: "80%", height: "180px" }} />

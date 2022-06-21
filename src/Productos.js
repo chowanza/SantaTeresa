@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Logo from "./assets/Logo.png";
+import Logo from "./assets/santate.png";
 import { Rings } from "react-loader-spinner";
 
-import backImage from "./assets/backImage.png";
+import backImage from "./assets/backsantate.png";
 import Card from "./Card";
 
 const Productos = () => {
@@ -69,8 +69,8 @@ const Productos = () => {
               className="d-flex align-items-center"
               style={{
                 height: "89.5vh",
-                color: "rgb(57 102 47)",
-                fontFamily: "roboto",
+                color: "rgb(0 0 0)",
+                fontFamily: "Impact",
               }}
             >
               <div className="col-6 ps-4">
@@ -81,7 +81,7 @@ const Productos = () => {
                   <h1
                     style={{
                       fontSize: "3rem",
-                      fontFamily: "roboto",
+                      fontFamily: "Impact",
                     }}
                   >
                     Sin productos registrados!
