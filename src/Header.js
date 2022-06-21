@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "./assets/Logo.png";
+import Logo from "./assets/santate.png";
 import { useNavigate } from "react-router-dom";
 
 const Header = ({}) => {
@@ -29,9 +29,9 @@ const Header = ({}) => {
       <div
         className="row justify-content-start py-3 m-0"
         style={{
-          backgroundColor: "rgb(71 118 63)",
+          backgroundColor: "rgb(0 0 0)",
           color: "#fff",
-          fontFamily: "roboto",
+          fontFamily: "Impact",
         }}
       >
         <div className="col-8">
@@ -48,7 +48,7 @@ const Header = ({}) => {
                 className="p-0 m-0"
                 src={Logo}
                 alt="Logo"
-                style={{ width: "60px", cursor: "pointer" }}
+                style={{ width: "200px", cursor: "pointer" }}
               />
             </Link>
 
@@ -62,7 +62,7 @@ const Header = ({}) => {
                   }}
                   to="/"
                 >
-                  Distribuidora F&S
+                  DISTRIBUIDORA SANTA TERESA
                 </Link>
               </h2>
             </div>
